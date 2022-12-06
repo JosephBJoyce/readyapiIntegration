@@ -6,7 +6,7 @@
   </con:settings>
   <con:parameters>
     <con:parameter>
-      <con:name>sessionid</con:name>
+      <con:name>NewSessionID</con:name>
       <con:value/>
       <con:style>QUERY</con:style>
       <con:default/>
@@ -51,8 +51,12 @@
       <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:jmsPropertyConfig/>
       <con:parameters>
-        <entry key="buystring" value="Item 1" xmlns="http://eviware.com/soapui/config"/>
+        <con:entry key="buystring" value="Item 1"/>
       </con:parameters>
+      <con:parameterOrder>
+        <con:entry>NewSessionID</con:entry>
+        <con:entry>buystring</con:entry>
+      </con:parameterOrder>
       <con:environmentSpec>
         <con:entry environmentId="f27a7295-1f08-4642-a3be-7ae9878517f0">
           <con:authProfile>No Authorization</con:authProfile>

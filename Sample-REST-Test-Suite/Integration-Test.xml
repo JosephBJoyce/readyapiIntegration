@@ -176,8 +176,12 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="buystring" value="${Search_Item#Response#$['result']['item']['id']}"/>
-          <con:entry key="sessionid" value="${Login#Response#$['sessionid']}"/>
+          <con:entry key="NewSessionID" value="${Login#Response#$['sessionid']}"/>
         </con:parameters>
+        <con:parameterOrder>
+          <con:entry>NewSessionID</con:entry>
+          <con:entry>buystring</con:entry>
+        </con:parameterOrder>
         <con:environmentSpec>
           <con:entry environmentId="f27a7295-1f08-4642-a3be-7ae9878517f0">
             <con:authProfile>No Authorization</con:authProfile>
