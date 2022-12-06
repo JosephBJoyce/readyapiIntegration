@@ -78,10 +78,10 @@ NOTE: Check the Test Case transaction log after the execution of the test to vie
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="password" value="${Data Source#password}"/>
-          <con:entry key="username" value="${Data Source#username}"/>
+          <con:entry key="username1" value="${Data Source#username}"/>
         </con:parameters>
         <con:parameterOrder>
-          <con:entry>username</con:entry>
+          <con:entry>username1</con:entry>
           <con:entry>password</con:entry>
         </con:parameterOrder>
         <con:environmentSpec>

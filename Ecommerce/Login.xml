@@ -6,7 +6,7 @@
   </con:settings>
   <con:parameters>
     <con:parameter>
-      <con:name>username</con:name>
+      <con:name>username1</con:name>
       <con:value/>
       <con:style>QUERY</con:style>
       <con:default/>
@@ -212,10 +212,10 @@
       <con:jmsPropertyConfig/>
       <con:parameters>
         <con:entry key="password" value="Login123"/>
-        <con:entry key="username" value="Login"/>
+        <con:entry key="username1" value="Login"/>
       </con:parameters>
       <con:parameterOrder>
-        <con:entry>username</con:entry>
+        <con:entry>username1</con:entry>
         <con:entry>password</con:entry>
       </con:parameterOrder>
       <con:environmentSpec>
